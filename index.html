@@ -1,20 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1{
-            color: red;
-            font-size: 3rem;
-            background-color: aquamarine;
-            padding: 10px 20px;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Corner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Heloo, HTML Dada!</h1>
+
+  <header class="hero">
+    <div class="overlay">
+      <h1>Coffee Corner</h1>
+      <p>Wake Up. Drink Coffee. Repeat.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>We serve freshly brewed coffee with love. Our beans are handpicked from the best farms and roasted to perfection.</p>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Popular Picks</h2>
+    <div class="menu-items">
+      <div class="card">
+        <img src="images/coffee1.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Strong and bold, perfect for your morning boost.</p>
+      </div>
+      <div class="card">
+        <img src="images/coffee2.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>Milk meets coffee in a smooth blend of flavors.</p>
+      </div>
+      <div class="card">
+        <img src="images/coffee3.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Rich and creamy, topped with delicious foam.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Visit Us</h2>
+    <p> Coffee Street, Lucknow City</p>
+    <p>Email: hello@coffeecorner.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Coffee Corner. Brewed with ♥</p>
+  </footer>
+
 </body>
 </html>
