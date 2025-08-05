@@ -2,7 +2,8 @@
 
 **Coffee Corner** is a visually appealing landing page for a fictional coffee shop. It features a modern and minimalist design with sections for a hero banner, about info, menu highlights, and contact details — perfect for practice or as a beginner-friendly HTML/CSS template.
 
-![Coffee Corner UI]
+Coffee Corner UI
+
 <img width="1494" height="841" alt="Screenshot 2025-08-05 212519" src="https://github.com/user-attachments/assets/3dbe47ee-6e1a-4e01-b3b4-55d9174f248e" />
 
 
@@ -58,12 +59,6 @@ To run the project locally:
    ```
 
 3. Open `index.html` in your browser
-
----
-
-## 📸 Screenshot
-
-![Screenshot](images/screenshot.jpg)
 
 ---
 
